@@ -41,6 +41,44 @@ end
 
 
 """
+Returns -1 if the argument is odd and +1 if the argument is even.
+### Input
+@param n - an integer.
+### Output
+@return -1 if the integer is odd and +1 if the integer is even
+"""
+function even(n::Int)
+    if n % 2 == 0
+        return 1
+    else 
+        return -1
+    end
+end
+
+
+"""
+Locate the n^th Gram point through Newton's method.
+### Input
+@param n - the n^th Gram point.
+### Output
+@return the value of the n^th Gram point.
+"""
+function gram(n::Int)
+  tn = 0.0
+  tn1 = 0.5*n + 20.0
+
+  while abs(tn - tn1) > 1e-8
+      tn = tn1
+      # Compute t_1 = t_0 - f(t_0) / f'(t_0) 
+      # Here, f is the Riemann-Siegel theta function minus n times pi
+      tn1 = tn - (theta(tn) - n*pi) / thetaDeriv(tn)
+  end
+
+  return tn1
+end
+
+
+"""
     Riemann-Siegel Z(t) function implemented per the Riemenn Siegel
     formula. See http://mathworld.wolfram.com/Riemann-SiegelFormula.html
     for details.

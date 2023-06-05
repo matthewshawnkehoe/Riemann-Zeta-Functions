@@ -22,15 +22,15 @@ Download the Julia code in the src directory. The individual programs are
 
 Example 1: Plot of $\zeta(1/2+it)$ on the critical line.
 
-![alt text](https://axion004.files.wordpress.com/2022/12/zeta_one_half_plus_i_t.png)
+![image](https://github.com/matthewshawnkehoe/Riemann-Zeta-Functions/assets/13266088/9c7cdfbe-135e-45ef-822f-65c91723ced3)
 
 Example 2: Real and Imaginary values of the Riemann-Siegel $Z$ function.
 
-![alt text](https://axion004.files.wordpress.com/2022/12/zeta_real_and_imag_crit_line.png)
+![image](https://github.com/matthewshawnkehoe/Riemann-Zeta-Functions/assets/13266088/9629886e-2eed-4f34-ba3a-c35f8919c418)
 
 Example 3: Real values of the Riemann Zeta function.
 
-![alt text](https://axion004.files.wordpress.com/2022/12/real_zeta_s.png)
+![image](https://github.com/matthewshawnkehoe/Riemann-Zeta-Functions/assets/13266088/de59d50f-35f5-475e-bfac-f05330a10383)
 
 
 ## References

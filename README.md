@@ -10,13 +10,13 @@ This repository contains a Julia implementation of the Riemann–Siegel formula.
 ## Installation
 Download the Julia code in the src directory. The individual programs are
 
-1. BernoulliNumbers.jl: This program applies the Akiyama-Tanigawa algorithm to display integer values of the Riemann zeta function.
-2. PlotZetaOffCriticalLine.jl: Calculates real values of the Riemann zeta function off the critical line and plots them to the screen.
-3. PlotZetaOnCriticalLine.jl: Uses the Riemann-Siegel formula to plot the Riemann-Siegel $Z$ function, $(t,Z(t))$, at specified time intervals.
-4. RiemannSiegel.jl: Implementation of the Riemann-Siegel formula to calculate non-trivial zeros of the Riemann zeta function.
-5. TuringTest.jl: Applies Turing's method to bound $S(g_n)$ in the expression $(-1)^n  Z(g_n + h_n) > 0$ (which can be used to verify the RH up to a specific height $T$).
-6. rootCount.jl: Verifies the RH up to a final Gram point using the Riemann-Siegel formula.
-7. zetaFunctions.jl: A library of functions used in all the other programs.
+1. `BernoulliNumbers.jl:` This program applies the Akiyama-Tanigawa algorithm to display integer values of the Riemann zeta function.
+2. `PlotZetaOffCriticalLine.jl:` Calculates real values of the Riemann zeta function off the critical line and plots them to the screen.
+3. `PlotZetaOnCriticalLine.jl:` Uses the Riemann-Siegel formula to plot the Riemann-Siegel $Z$ function, $(t,Z(t))$, at specified time intervals.
+4. `RiemannSiegel.jl:` Implementation of the Riemann-Siegel formula to calculate non-trivial zeros of the Riemann zeta function.
+5. `TuringTest.jl:` Applies Turing's method to bound $S(g_n)$ in the expression $(-1)^n  Z(g_n + h_n) > 0$ (which can be used to verify the RH up to a specific height $T$).
+6. `rootCount.jl:` Verifies the RH up to a final Gram point using the Riemann-Siegel formula.
+7. `zetaFunctions.jl:` A library of functions used in all the other programs.
 
 ## Plotting 
 
@@ -45,7 +45,6 @@ Interested readers can review the following material:
 1. Implement the Odlyzko–Schonhage Algorithm in Julia.
 2. Apply more remainder terms in the calculation of the Riemann-Siegel formula (Ken computed a lot more than four).
 3. Implement 3D plots of the Riemann zeta function with real and complex values.
-
 
 ## Questions
 

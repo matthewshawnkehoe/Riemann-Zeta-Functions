@@ -38,7 +38,7 @@ Interested readers can review the following material:
 
 * Overview of the Riemann Zeta Function: [Edward's Riemann Zeta Function](https://www.amazon.com/Riemanns-Zeta-Function-Harold-Edwards/dp/0486417409)
 * C Implementation of Riemann-Siegel Formula: [Glen's Project](https://web.viu.ca/pughg/thesis.d/masters.thesis.pdf) and [Ken's Project](http://web.mit.edu/kenta/www/six/parallel/2-Final-Report.html)
-* Beamer Presentation: [Calculating zeros of the RZF](https://axion004.files.wordpress.com/2022/12/calculating_zeros_of_the_riemann_zeta_function.pdf)
+* Beamer Presentation: [Calculating zeros of the RZF]([https://axion004.files.wordpress.com/2022/12/calculating_zeros_of_the_riemann_zeta_function.pdf](https://matthewshawnkehoe.github.io/files/kehoe_calculating_zeros_of_the_riemann_zeta_function.pdf)
 
 ## Future Work
 

@@ -3,7 +3,7 @@ The German mathematician Bernhard Riemann published his work on the investigatio
 
 1. Euler-Maclaurin Summation Formula
 2. Riemann–Siegel Formula
-3. Odlyzko–Schonhage Algorithm
+3. Odlyzko–Schönhage Algorithm
 
 This repository contains a Julia implementation of the Riemann–Siegel formula. The code was written by Matthew Kehoe (mskehoe001@gmail.com) and is partially based off the work (written in C) by [Glen Pugh](https://web.viu.ca/pughg/) and [Ken Takusagawa](http://web.mit.edu/kenta/www/six/parallel/2-Final-Report.html). Future commits of this repository may contain a working implementation of the Odlyzko–Schonhage algorithm in Julia and various enhancements to the root-finding and plotting programs.
 
